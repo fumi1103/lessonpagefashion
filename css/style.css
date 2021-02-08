@@ -1,0 +1,106 @@
+h1, h2, h3{
+    font-family: 'Bodoni URW', YuMincho, 'Yu Mincho', serif;
+}
+
+#site-header {
+    position: fixed;
+    width: 100%;
+    height: 95px;
+    margin: 0 auto;
+    justify-content: space-between;
+}
+
+#nav-menu {
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding: 0 275px 0 220px;
+}
+
+.nav-menu-items {
+    margin: 37px 25px 35px 25px;
+    list-style-type: none;
+    outline: none;
+    font-size: 11pt;
+    letter-spacing: 3px;
+}
+
+#nav-menu a  {
+    font-family: 'Bodoni URW';
+    text-decoration: none;
+    color: #333333;
+}
+
+#corporate-logo {
+    margin: 29px auto 24px auto;
+    font-size: 25px;
+}
+
+#corporate-logo img {
+    vertical-align: text-bottom;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding-top: 95px;
+    z-index: -1;
+}
+
+.swiper-slide {
+    display: inline-block;
+    position: relative;
+}
+
+.swiper-slide img {
+    width: 100%;
+    max-height: 100vh;
+    object-fit: fill;
+}
+
+.top-title {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 352px;
+    left: 248px;
+    z-index: 1;
+}
+
+.sub-title {
+    position: absolute;
+    top: 479.5px;
+    left: 486.53px;
+    z-index: 1;
+    font-family: 'FOT-マティス ProN', YuMincho, 'Yu Mincho';
+    font-size: 24px;
+    font-weight: lighter;
+    letter-spacing: 5px;
+    color: #333333;
+}
+
+
+.title-link {
+    position: absolute;
+    top: 550.42px;
+    left: 475.85px;
+    z-index: 1;
+    font-family: futura-pt, sans-serif;
+    font-size: 15px;
+    font-weight: lighter;
+    letter-spacing: 1px;
+}
+
+.title-link a {
+    text-decoration: none;
+    color: #333333;
+    border-bottom: 1px solid;
+    padding-bottom: 8px;
+}
