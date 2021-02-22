@@ -141,8 +141,13 @@ main {
     display:flex;
 }
 .image {
-    margin-top:100px;
-    margin-left:130px;
+    position: absolute;
+    top: 100px;
+    left: 80px;
+}
+.image2 {
+    margin-top:149px;
+    margin-left:51px;
     width: 667px;
     height: auto;
 }
