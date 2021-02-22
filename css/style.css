@@ -2,7 +2,7 @@ h1, h2, h3{
     font-family: 'Bodoni URW', YuMincho, 'Yu Mincho', serif;
 }
 
-#site-header {
+/*#site-header {
     position: fixed;
     width: 100%;
     height: 95px;
@@ -39,6 +39,40 @@ h1, h2, h3{
 #corporate-logo img {
     vertical-align: text-bottom;
 }
+*/
+/* HEADER */
+header {
+    height:95px;
+    display:flex;
+    justify-content:center;
+    
+    align-items:center;
+}
+.header-left,.header-right {
+    display:flex;
+}
+.header-message {
+    color:rgba(51,51,51,1);
+    font-size:36px;
+    font-family:"Bodoni URW";
+    vertical-align:middle;
+    margin-right:90px;
+    margin-left:90px;
+}
+.header-left li,.header-right li {
+    font-family:"Bodoni URW";
+    font-size:15px;
+    vertical-align:middle;
+}
+
+.header-left li {
+    margin-left:45px;
+    list-style-type: none;
+}
+.header-right li {
+    margin-right:45px;
+    list-style: none;
+}
 
 body {
     margin: 0;
@@ -50,7 +84,6 @@ body {
     width: 100%;
     height: 100%;
     margin: 0 auto;
-    padding-top: 95px;
     z-index: -1;
 }
 
@@ -65,7 +98,7 @@ body {
     object-fit: fill;
 }
 
-.top-title {
+.primitive {
     width: 100%;
     height: 100%;
     position: absolute;
@@ -74,12 +107,11 @@ body {
     z-index: 1;
 }
 
-.sub-title {
+.taiko {
     position: absolute;
     top: 479.5px;
     left: 486.53px;
     z-index: 1;
-    font-family: 'FOT-マティス ProN', YuMincho, 'Yu Mincho';
     font-size: 24px;
     font-weight: lighter;
     letter-spacing: 5px;
@@ -87,12 +119,11 @@ body {
 }
 
 
-.title-link {
+.discover {
     position: absolute;
     top: 550.42px;
     left: 475.85px;
     z-index: 1;
-    font-family: futura-pt, sans-serif;
     font-size: 15px;
     font-weight: lighter;
     letter-spacing: 1px;
@@ -103,4 +134,42 @@ body {
     color: #333333;
     border-bottom: 1px solid;
     padding-bottom: 8px;
+}
+/* MAIN */
+main {
+    height:800px;
+    display:flex;
+}
+.image {
+    margin-top:100px;
+    margin-left:130px;
+    width: 667px;
+    height: auto;
+}
+.main-message {
+    margin-top:120px;
+    margin-left:80px;
+}
+.tag {
+    font-family:Futura;
+    font-size:20px;
+    color:rgba(51,51,51,1);
+}
+.main-title {
+    font-family:Didot;
+    font-size:64px;
+    color:rgba(51,51,51,1);
+    margin-top:13px;
+    margin-bottom:18px;
+}
+.desc{
+    font-family:æ¸¸æ˜Žæœä½“;
+    font-size:18px;
+    color:rgba(51,51,51,1);
+}
+.category {
+    margin-top:38px;
+    font-family:"Futura PT";
+    font-size:15px;
+    color:rgba(51,51,51,1);
 }
