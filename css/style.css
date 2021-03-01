@@ -142,7 +142,7 @@ main {
 }
 .image {
     position: absolute;
-    top: 100px;
+    bottom: 140px;
     left: 80px;
 }
 .image2 {
@@ -168,7 +168,8 @@ main {
     margin-bottom:18px;
 }
 .desc{
-    font-family:æ¸¸æ˜Žæœä½“;
+    margin-top:5px;
+    font-family:"Futura PT";
     font-size:18px;
     color:rgba(51,51,51,1);
 }
